@@ -1,0 +1,43 @@
+.warning {
+  background: linear-gradient(135deg, #1e293b, #0f172a);
+
+  color: white;
+
+  border-radius: 25px;
+  min-height: 140px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  box-sizing: border-box;
+
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  padding: 20px;
+
+  border-left: 8px solid #3b82f6;
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.pulse {
+  animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.02);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
